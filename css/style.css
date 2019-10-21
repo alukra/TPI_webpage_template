@@ -11,17 +11,17 @@ body {
   font-family: 'Open Sans', helvetica, arial, sans-serif;
 }
 span.navy {
-  color: #1ab394;
+  color: #8D665E;
 }
 p.text-color {
   color: #676a6c;
 }
 a.navy-link {
-  color: #1ab394;
+  color: #8D665E;
   text-decoration: none;
 }
 a.navy-link:hover {
-  color: #17a185;
+  color: rgb(94, 72, 67);
 }
 section p {
   color: #aeaeae;
@@ -39,10 +39,10 @@ h1 {
   width: 60px;
   height: 1px;
   margin: 60px auto 0;
-  border-bottom: 2px solid #1ab394;
+  border-bottom: 2px solid #8D665E;
 }
 .navy-bg {
-  background-color: #1ab394;
+  background-color: #8D665E;
   color: #ffffff;
 }
 /* CUSTOMIZE THE NAVBAR
@@ -88,10 +88,10 @@ h1 {
 .navbar-default .navbar-nav > .active > a:hover {
   background: transparent;
   color: #fff;
-  border-top: 6px solid #1ab394;
+  border-top: 6px solid #8D665E;
 }
 .navbar-default .navbar-nav > li > a:hover {
-  color: #1ab394;
+  color: #8D665E;
 }
 .navbar-default .navbar-nav > .active > a:focus {
   background: transparent;
@@ -103,7 +103,7 @@ h1 {
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  background: #17a185;
+  background: rgb(94, 72, 67);
   color: #fff;
 }
 .navbar-default .navbar-brand {
@@ -111,7 +111,7 @@ h1 {
   height: auto;
   display: block;
   font-size: 14px;
-  background: #1ab394;
+  background: #8D665E;
   padding: 15px 20px 15px 20px;
   border-radius: 0 0px 5px 5px;
   font-weight: 700;
@@ -121,7 +121,7 @@ h1 {
   color: #676a6c;
 }
 .navbar-scroll.navbar-default .nav li a:hover {
-  color: #1ab394;
+  color: #8D665E;
 }
 .navbar-wrapper .navbar.navbar-scroll {
   padding-top: 0;
@@ -149,15 +149,15 @@ h1 {
 {
   background: transparent;
   color: #fff;
-  border-color: #1ab394;
+  border-color: #8D665E;
 }
 
 .dropdown-menu{
-  background: #1ab394;
+  background: #8D665E;
 }
 
 .dropdown-menu>li>a:hover{
-  background: #14856e;
+  background: rgb(94, 72, 67);
 }
 /* BACKGROUNDS SLIDER
 -------------------------------------------------- */
@@ -171,6 +171,15 @@ h1 {
 .header-back.two {
   background: url('../img/header_two.jpg') 50% 0 no-repeat;
 }
+
+.header-back.three {
+  background: url('../img/header_three.jpg') 50% 0 no-repeat;
+}
+
+.header-back.four {
+  background: url('../img/header_four.jpg') 50% 0 no-repeat;
+}
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 /* Carousel base class */
@@ -294,7 +303,7 @@ h1 {
   margin-top: 40px;
 }
 .features small {
-  color: #1ab394;
+  color: #8D665E;
 }
 .features h2 {
   font-size: 18px;
@@ -307,12 +316,12 @@ h1 {
   font-weight: 200;
 }
 .features-icon {
-  color: #1ab394;
+  color: #8D665E;
   font-size: 40px;
 }
 .navy-section {
   margin-top: 60px;
-  background: #1ab394;
+  background: #8D665E;
   color: #fff;
   padding: 20px 0;
 }
@@ -327,7 +336,7 @@ h1 {
   margin: auto;
 }
 .social-icon a {
-  background: #1ab394;
+  background: #8D665E;
   color: #fff;
   padding: 4px 8px;
   height: 28px;
@@ -336,7 +345,7 @@ h1 {
   border-radius: 50px;
 }
 .social-icon a:hover {
-  background: #17a185;
+  background: rgb(94, 72, 67);
 }
 .img-small {
   height: 88px;
@@ -358,7 +367,7 @@ h1 {
 }
 .pricing-plan .pricing-price span {
   font-weight: 700;
-  color: #1ab394;
+  color: #8D665E;
 }
 li.pricing-desc {
   font-size: 13px;
@@ -366,7 +375,7 @@ li.pricing-desc {
   padding: 20px 16px ;
 }
 li.pricing-title {
-  background: #1ab394;
+  background: #8D665E;
   color: #fff;
   padding: 10px;
   border-radius: 4px 4px 0 0;
@@ -376,14 +385,14 @@ li.pricing-title {
 .testimonials {
   padding-top: 80px;
   padding-bottom: 90px;
-  background-color: #1ab394;
+  background-color: #8D665E;
   background-image: url('../img/avatar_all.png');
 }
 .big-icon {
   font-size: 56px;
 }
 .features .big-icon {
-  color: #1ab394;
+  color: #8D665E;
 }
 .contact {
   margin-top: 60px;
@@ -398,8 +407,8 @@ li.pricing-title {
   color: #fff;
 }
 .btn-primary {
-  background-color: #1ab394;
-  border-color: #1ab394;
+  background-color: #8D665E;
+  border-color: #8D665E;
   color: #FFFFFF;
   font-size: 14px;
   padding: 10px 20px;
@@ -410,8 +419,8 @@ li.pricing-title {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  background-color: #18a689;
-  border-color: #18a689;
+  background-color: rgb(94, 72, 67);
+  border-color: rgb(94, 72, 67);
   color: #FFFFFF;
 }
 .btn-primary:active,
@@ -434,9 +443,68 @@ fieldset[disabled] .btn-primary:hover,
 fieldset[disabled] .btn-primary:focus,
 fieldset[disabled] .btn-primary:active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #1dc5a3;
-  border-color: #1dc5a3;
+  background-color: #8D665E;
+  border-color: #8D665E;
 }
+
+.cuerpoContacto {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.camposContacto {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.textareaContacto{
+  height: 100px;
+}
+
+
+.labelContacto {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.centrado{
+text-align: center;
+}
+
+.botonContacto{
+  background-color: #8D665E;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.botonContacto:hover {
+  background-color: #B39993;
+}
+
+.containerContacto {
+  border-radius: 5px;
+  background-color: #abb2b9;
+  padding: 20px;
+}
+
+.divExterior{
+     padding: 30px;
+}
+
+.divInterior{
+     margin: auto;
+     width: 70%;
+     height: 70%;  
+}
+
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 @media (min-width: 768px) {
@@ -496,7 +564,7 @@ fieldset[disabled] .btn-primary.active {
     color: #676a6c;
   }
   .navbar-default .nav li a:hover {
-    color: #1ab394;
+    color: #8D665E;
   }
   .navbar-wrapper .navbar {
     padding-top: 0;
@@ -983,7 +1051,7 @@ section.comments {
   font-weight: 500;
 }
 .vertical-date small {
-  color: #1ab394;
+  color: #8D665E;
   font-weight: 400;
 }
 .vertical-timeline-content::before {
@@ -1048,3 +1116,5 @@ section.comments {
     visibility: hidden;
   }
 }
+
+
