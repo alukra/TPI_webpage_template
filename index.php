@@ -1,6 +1,6 @@
 <?php
     $title = "Inicio";
-    $mode = "light";
+    
 
     $content = '<div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
         <ol class="carousel-indicators">

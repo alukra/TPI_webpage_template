@@ -12,11 +12,15 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
     <link href="css/animate.min.css" rel="stylesheet">
     <?php
-        if($mode === "light"){
+        if( !isset($_COOKIE['PrintCupsLayout'])){
+            setcookie("PrintCupsLayout", 'light');
+        }
+        if($_COOKIE['PrintCupsLayout'] === "light"){
            echo'<link href="css/style.css" rel="stylesheet"/>';
         }else{
             echo '<link href="css/styleDark.css" rel="stylesheet"/>';
         }
+
     ?>
 </head>
 <body id="page-top">

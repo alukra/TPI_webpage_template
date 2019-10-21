@@ -37,6 +37,7 @@
                                 <li><a href="./contacto.php">Contacto</a></li>
                             </ul>
                         </li>
+                        <li> <a href="modonoche.php">Modo <?php $_COOKIE['PrintCupsLayout'] === "light"  ? print "Oscuro" : print "Claro"; ?> </a></li>
                     </ul>
                 </div>
             </div>

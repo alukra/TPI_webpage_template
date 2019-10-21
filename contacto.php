@@ -1,6 +1,6 @@
 <?php
     $title = "Contactanos";
-    $mode = "light";
+    
 
     $content = '<div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
         <div class="carousel-inner" role="listbox">
