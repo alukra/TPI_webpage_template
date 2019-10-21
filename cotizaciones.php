@@ -1,5 +1,5 @@
 <?php
-    $title = "Contazación";
+    $title = "Cotización";
     $mode = "light";
 
     $content = '<div id="inSlider" class="carousel carousel-fade" data-ride="carousel">

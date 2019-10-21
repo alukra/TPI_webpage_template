@@ -1,5 +1,5 @@
 <?php
-    $title = "Galeria de videos";
+    $title = "Promociones";
     $mode = "light";
 
     $content = '<div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
