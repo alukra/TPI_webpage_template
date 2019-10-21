@@ -203,6 +203,10 @@ h1 {
 .header-back.ten {
   background: url('../img/header_ten.jpg') 50% 0 no-repeat;
 }
+
+.header-back.eleven {
+  background: url('../img/header_eleven.jpg') 50% 0 no-repeat;
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 /* Carousel base class */
