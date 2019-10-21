@@ -142,6 +142,23 @@ h1 {
   padding: 10px;
   height: auto;
 }
+
+.navbar-default .navbar-nav>.open>a,
+ .navbar-default .navbar-nav>.open>a:focus, 
+ .navbar-default .navbar-nav>.open>a:hover
+{
+  background: transparent;
+  color: #fff;
+  border-color: #1ab394;
+}
+
+.dropdown-menu{
+  background: #1ab394;
+}
+
+.dropdown-menu>li>a:hover{
+  background: #14856e;
+}
 /* BACKGROUNDS SLIDER
 -------------------------------------------------- */
 .header-back {
@@ -369,9 +386,6 @@ li.pricing-title {
   color: #1ab394;
 }
 .contact {
-  background-image: url('../img/word_map.png');
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
   margin-top: 60px;
 }
 /* Buttons - only primary custom button
