@@ -30,7 +30,7 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a href="./quienessomos.php">Quienes somos</a></li>
-                                <li><a href="./descripcion.php">Descripción</a></li>
+                                <li><a href="./ubicacion.php">Ubicanos</a></li>
                                 <li><a href="./preguntas.php">Preguntas frecuentes</a></li>
                                 <li><a href="./cotizaciones.php">Cotizaciones</a></li>
                                 <li><a href="./contacto.php">Contacto</a></li>

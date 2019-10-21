@@ -187,6 +187,14 @@ h1 {
 .header-back.six {
   background: url('../img/header_six.jpg') 50% 0 no-repeat;
 }
+
+.header-back.seven {
+  background: url('../img/header_seven.jpg') 50% 0 no-repeat;
+}
+
+.header-back.eight {
+  background: url('../img/header_eight.jpg') 50% 0 no-repeat;
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 /* Carousel base class */
