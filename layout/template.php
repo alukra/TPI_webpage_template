@@ -34,4 +34,6 @@
 <script src="js/cbpAnimatedHeader.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/inspinia.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/productos.js"></script>
 </html>

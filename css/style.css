@@ -180,6 +180,13 @@ h1 {
   background: url('../img/header_four.jpg') 50% 0 no-repeat;
 }
 
+.header-back.five {
+  background: url('../img/header_five.jpg') 50% 0 no-repeat;
+}
+
+.header-back.six {
+  background: url('../img/header_six.jpg') 50% 0 no-repeat;
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 /* Carousel base class */
@@ -502,6 +509,46 @@ text-align: center;
      margin: auto;
      width: 70%;
      height: 70%;  
+}
+
+
+.img-presentacion{
+	width: 500px;
+}
+
+.img-thumbnail{
+	width: 300px;
+	height: 200px;
+}
+
+.img-thumbnail:hover{
+	cursor: pointer;
+	animation: shake 0.5s;
+	animation-iteration-count: infinite;
+}
+
+.img-promo{
+	width: 500px;
+	height: 300px;
+	
+}
+
+.card-promo{
+	width: 49%;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
 
